@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tittle{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+h1{
+    font-weight: 200;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: blueviolet;
+    transition: 0.5s all;
+}
+
+span{
+    color: blueviolet;
+    transition: 1.5s;
+}
+
+#inscreva-se_button{
+    border: 3px solid blueviolet;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#inscreva-se_button:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+img{
+    width: 590px;
+}
+
+form{
+    display: flex;  
+    flex-direction: column;
+    width: 70%;   
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: center;
+}
